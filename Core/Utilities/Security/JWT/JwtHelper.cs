@@ -10,12 +10,9 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using Core.DependencyResolvers;
-using Core.Extensions;
 using Core.Utilities.IoC;
-using Core.Utilities.Security.Encrypiton;
 using Core.Utilities.Security.JWT;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Configuration;
 
 namespace Core.Utilities.Security.JWT

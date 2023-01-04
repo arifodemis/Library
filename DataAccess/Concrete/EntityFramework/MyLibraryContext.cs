@@ -16,6 +16,7 @@ namespace DataAccess.Concrete.EntityFramework
 			optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=MyLibrary;Trusted_Connection=true");
 
 		}
+		public DbSet<Book> Books { get; set; }
 		public DbSet<Author> Authors { get; set; }
 		public DbSet<Bookshelf> Bookshelfs { get; set; }
 		public DbSet<Category> Categories { get; set; }

@@ -9,7 +9,10 @@ namespace Business.Constants
 	public static class Messages
 	{
 		public static string BookAdded = "Kitap eklendi";
-		public static string AuthorizationDenied = "Yetkiniz yok.";
+		public static string BookDelete = "Kitap silindi";
+		public static string BookUpdate = "Kitap güncellendi";
+		public static string BookListed = "Kitap Listelendi";
+
 		public static string AuthorAdded = "Yazar eklendi";
 		public static string AuthorDelete = "Yazar silindi";
 		public static string AuthorUpdate = "Yazar güncellendi";
@@ -29,6 +32,8 @@ namespace Business.Constants
 		public static string PublisherDelete = "Yayımcı silindi";
 		public static string PublisherUpdate = "Yayımcı güncellendi";
 		public static string PublisherListed = "Yayımcı Listelendi";
+
+		public static string AuthorizationDenied = "Yetkiniz yok.";
 
 
 	}
